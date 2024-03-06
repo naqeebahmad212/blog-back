@@ -14,6 +14,7 @@ app.use(
   cors({
     credentials: true,
     origin: "https://blog-front-seven-cyan.vercel.app",
+    methods: ["POST", "GET"],
   })
 ); // Use this after the variable declaration
 app.use(blogRouter);
