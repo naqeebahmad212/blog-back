@@ -10,7 +10,6 @@
     {
       "src": "/(.*)",
       "dest": "/",
-      "method": ["GET", "POST", "DELETE", "PUT", "PATCH", "OPTIONS"],
       "headers": {
         "Access-Control-Allow-Origin": "https://mernstack-frontend-phi.vercel.app",
         "Access-Control-Allow-Credentials": "true"
