@@ -39,7 +39,7 @@ const Create = () => {
 
     setIsPending(true);
     axios
-      .post("https://blog-back-bzo6.vercel.app", data)
+      .post("https://blog-back-bzo6.vercel.app/create", data)
       .then((res) => {
         setIsPending(false);
         navigate("/");
